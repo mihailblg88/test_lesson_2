@@ -9,7 +9,7 @@ from selene import be, have
 def browser_size():
     browser.config.window_height = 720
     browser.config.window_width = 1280
-    return browser
+
 
 
 @pytest.fixture()
